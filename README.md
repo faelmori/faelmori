@@ -16,10 +16,10 @@
 ---
 
 ## GitHub Stats
-![Rafa Mori's GitHub stats](https://github-readme-stats.vercel.app/api?username=faelmori&show_icons=true&theme=radical)
+![Rafa Mori's GitHub stats](https://github-readme-stats-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
 
 ## Top Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=faelmori&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
 
 ## Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rafael-mori-b7025516/)
