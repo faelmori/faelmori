@@ -87,10 +87,19 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 ---
 
 ## GitHub General Stats
-![Rafa Mori's GitHub stats](https://github-readme-stats-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
+![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
 
 ## Github Languages Stats
-![Top Languages](https://github-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
+![Top Languages](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
+
+[//]: # (## GitHub General Stats)
+
+[//]: # (![Rafa Mori's GitHub stats]&#40;https://faelmori-readme-stats-faelmoris-projects.vercel.app/api/status/up?username=faelmori&show_icons=true&theme=date_night&#41;)
+
+[//]: # ()
+[//]: # (## Github Languages Stats)
+
+[//]: # (![Top Languages]&#40;https://faelmori-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15&#41;)
 
 ---
 
