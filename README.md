@@ -1,3 +1,4 @@
+![GoLife Banner](assets/name-top_banner.png)
 # Hi there, I'm Rafa Mori 👋
 
 Welcome to my GitHub profile! I'm a software developer passionate about solving complex problems and creating impactful solutions. Always striving to learn, grow, and share knowledge with the community. 🚀
