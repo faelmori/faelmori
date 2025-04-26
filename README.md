@@ -1,7 +1,9 @@
-![GoLife Banner](assets/name-top_banner.png)
-# Hi there, I'm Rafa Mori 👋
+![Rafa Mori Banner](assets/banners/name-top_banner_a.png)
 
-Welcome to my GitHub profile! I'm a software developer passionate about solving complex problems and creating impactful solutions. Always striving to learn, grow, and share knowledge with the community. 🚀
+# Hi there! 👋
+
+Welcome to my GitHub profile! I'm Rafael Mori, a software developer passionate about solving complex problems and
+creating impactful solutions. Always looking to learn, grow, and share knowledge with the community. 🚀
 
 ---
 
