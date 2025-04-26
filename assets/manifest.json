@@ -1,15 +1,15 @@
 {
   "name": "Rafa Mori - Dev Profile",
   "short_name": "Rafa Mori",
-  "start_url": "/",
+    "start_url": "/faelmoris/",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+        "src": "https://faelmori.github.io/faelmori/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/android-chrome-512x512.png",
+        "src": "https://faelmori.github.io/faelmori/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
