@@ -87,10 +87,10 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 ---
 
 ## GitHub General Stats
-![Rafa Mori's GitHub stats](https://github-readme-stats-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
+![Rafa Mori's GitHub stats](https://github-readme-stats-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=date_night)
 
 ## Github Languages Stats
-![Top Languages](https://github-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
+![Top Languages](https://github-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&count_private=true&layout=compact&show_icons=true&theme=date_night&langs_count=15)
 
 ---
 
