@@ -89,6 +89,9 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 
 ---
 
+## GitHub Streak Stats
+[![GitHub Streak stats](https://github-readme-streak-stats.herokuapp.com?user=faelmori&theme=dark&date_format=j%20M%5B%20Y%5D&background=45%2C00000066%2C573705&border=FFFFFF&dates=00000000&sideLabels=F97A00)](https://rafa-mori.dev)
+
 ## GitHub General Stats
 ![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
 
