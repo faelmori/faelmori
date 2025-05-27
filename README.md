@@ -88,24 +88,48 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ---
-
 ## GitHub Streak Stats
-[![GitHub Streak stats](https://github-readme-streak-stats.herokuapp.com?user=faelmori&theme=dark&date_format=j%20M%5B%20Y%5D&background=45%2C00000066%2C573705&border=FFFFFF&dates=00000000&sideLabels=F97A00)](https://rafa-mori.dev)
+
+<div width="100%" align="center">
+    <a href="https://rafa-mori.dev">
+        <img src="https://github-readme-streak-stats.herokuapp.com?user=faelmori&theme=dark&date_format=j%20M%5B%20Y%5D&background=45%2C00000066%2C573705&border=FFFFFF&dates=00000000&sideLabels=F97A00" alt="GitHub Streak Stats"/>
+    </a>
+</div>
 
 ## GitHub General Stats
-![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
 
-## Github Languages Stats
-![Top Languages](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
-
-[//]: # (## GitHub General Stats)
-
-[//]: # (![Rafa Mori's GitHub stats]&#40;https://faelmori-readme-stats-faelmoris-projects.vercel.app/api/status/up?username=faelmori&show_icons=true&theme=date_night&#41;)
-
-[//]: # ()
-[//]: # (## Github Languages Stats)
-
-[//]: # (![Top Languages]&#40;https://faelmori-readme-stats-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15&#41;)
+<div width="100%" align="center">
+    <span width="75%" height="100%" vertical-align="top">
+        <picture>
+            <source
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                    media="(prefers-color-scheme: radical)"
+            />
+            <source
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                    media="(prefers-color-scheme: radical), (prefers-color-scheme: no-preference)"
+            />
+            <img
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                 alt="GitHub Stats"/>
+        </picture>
+    </span>
+    <span width="25%">
+        <picture>
+            <source
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                    media="(prefers-color-scheme: radical)"
+            />
+            <source
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                    media="(prefers-color-scheme: radical), (prefers-color-scheme: no-preference)"
+            />
+            <img
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                 alt="GitHub Languages Stats"/>
+        </picture>
+    </span>
+</div>
 
 ---
 
