@@ -102,30 +102,30 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
     <span width="75%" height="100%" vertical-align="top">
         <picture>
             <source
-                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=27&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
                     media="(prefers-color-scheme: radical)"
             />
             <source
-                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=27&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
                     media="(prefers-color-scheme: radical), (prefers-color-scheme: no-preference)"
             />
             <img
-                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=29&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=27&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
                  alt="GitHub Stats"/>
         </picture>
     </span>
     <span width="25%">
         <picture>
             <source
-                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=440"
                     media="(prefers-color-scheme: radical)"
             />
             <source
-                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                    srcset="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=440"
                     media="(prefers-color-scheme: radical), (prefers-color-scheme: no-preference)"
             />
             <img
-                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=500"
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=440"
                  alt="GitHub Languages Stats"/>
         </picture>
     </span>
