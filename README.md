@@ -114,7 +114,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
                  alt="GitHub Stats"/>
         </picture> -->
                   <img
-                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=27&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&count_private=true&show_icons=true&theme=radical&line_height=28&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff"
                  alt="GitHub Stats"/>
     </span>
     <span width="25%">
@@ -132,7 +132,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
                  alt="GitHub Languages Stats"/>
         </picture> -->
       <img
-                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=440"
+                 src="https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs?username=faelmori&hide=javascript,batchfile,tex,ejs,rich%20text%20format,less,css,roff,text,markup,scss,html&bg_color=0d1117&text_color=ffffff&icon_color=ffffff&title_color=ffffff&langs_count=10&show_icons=true&theme=radical&layout=compact&card_width=370"
                  alt="GitHub Languages Stats"/>
     </span>
 </div>
