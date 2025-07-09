@@ -109,9 +109,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
     </a>
 </div>
 
-## GitHub General Stats
-
-![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
+[//]: # (![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night))
 
 ## Github Languages Stats
 
