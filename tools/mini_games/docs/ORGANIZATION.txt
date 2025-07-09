@@ -1,7 +1,0 @@
-.
-├── games.js
-├── index.html
-├── pong.js
-├── snake.js
-├── style.css
-└── tic_tac_toe.js
