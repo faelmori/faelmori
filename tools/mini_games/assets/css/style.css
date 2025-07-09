@@ -1,0 +1,510 @@
+/* 
+  * Variable Definitions
+  * This section defines the CSS variables used throughout the game for colors, fonts, and other styles.
+*/
+:root {
+  --primary-color: #007bff; /* Primary color for buttons and highlights */
+  --secondary-color: #6c757d; /* Secondary color for text and backgrounds */
+  --background-color: #f8f9fa; /* Background color for the game interface */
+  --text-color: #333; /* Primary text color */
+  --text-secondary-color: #666; /* Secondary text color */
+  --border-radius: 8px; /* Border radius for buttons and containers */
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for containers */
+  --font-family: 'Arial', sans-serif; /* Font family for the game */
+  --font-size-base: 16px; /* Base font size for the game */
+  --font-size-large: 2.5rem; /* Large font size for headings */
+  --font-size-medium: 1.8rem; /* Medium font size for subheadings */
+  --font-size-small: 1rem; /* Small font size for paragraphs */
+  --transition-duration: 0.3s; /* Transition duration for hover effects */
+  --transition-ease: ease; /* Transition easing function */
+}
+
+/*
+  * General Styles
+  * This section contains the general styles for the game, including body, headings, and paragraphs.
+  * It sets the font, background color, and basic layout for the game interface.
+*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Impede rolagem global */
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 20px;
+  color: #333;
+}
+h2 {
+  font-size: 1.8rem;
+  margin: 0 0 10px;
+  color: #555;
+}
+p {
+  font-size: 1rem;
+  margin: 0 0 10px;
+  color: #666;
+}
+
+/*
+
+  * Main Layout Styles
+  * This section styles the main layout of the game, including the game container and sidebar.
+  * It ensures a responsive and visually appealing design for the game interface.
+
+*/
+.main-layout {
+  padding: 20px;
+  width: 100%;
+  height: 80vh; /* Garante que ocupe toda a altura da tela */
+  max-width: 1200px;
+
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+
+  box-sizing: border-box;
+  background-color: transparent; /* Fundo transparente para permitir o fundo do body */
+  overflow: hidden;
+}
+
+/* 
+  * Game Container Styles
+  * This section styles the game container, which holds the game canvas and sidebar.
+  * It ensures a flexible layout that adapts to different screen sizes.
+*/
+.game-container {
+  width: 90%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 80vh;
+
+  flex: 3; /* Ajusta a proporção do container do jogo */
+  display: flex;
+  flex-direction: column; /* Altera para coluna para melhor responsividade */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  overflow: hidden;
+  background: transparent; /* Fundo transparente para permitir o fundo do body */
+
+  margin: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*
+  * Sidebar Styles
+  * This section styles the sidebar, which contains game controls and information.
+  * It ensures a clean and organized layout for user interactions and game details.
+*/
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  max-height: 80vh;
+  overflow-y: auto; /* Sidebar pode rolar se necessário */
+}
+
+
+/* 
+  * Placeholder Styles
+  * This section contains placeholder styles for future game elements.
+  * It includes styles for game elements that are not yet implemented but will be added later.
+ */
+.placeholder {
+  display: none; /* Esconde por padrão */
+  position: relative;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 80vh !important; /* Garante que o placeholder não ultrapasse a altura máxima do container */
+  max-width: 100%;
+
+  background-color: transparent; /* Fundo transparente para não interferir no layout */
+  z-index: 1000; /* Coloca acima dos outros elementos */
+
+  display: flex; /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 24px; /* Tamanho do texto */
+  color: white; /* Cor do texto */
+  
+  border-radius: var(--border-radius); /* Borda arredondada */
+  box-shadow: var(--box-shadow); /* Sombra para destaque */
+
+  transition: ease --transition-duration 1s;
+  opacity: 0.8; /* Opacidade para suavizar o visual */
+  background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
+}
+.placeholder.active {
+  display: flex; /* Exibe o placeholder quando ativo */
+  flex-direction: column; /* Alinha o conteúdo em coluna */
+  align-content: center; /* Alinha o conteúdo */
+  justify-content: center; /* Centraliza verticalmente */
+  width: 100%; /* Ocupa toda a largura disponível */
+  height: 100%; /* Ocupa toda a altura disponível */
+}
+
+/* 
+  * Game Canvas Styles
+  * This section styles the game canvas, ensuring it is responsive and visually appealing.
+  * It includes styles for the canvas element, including dimensions, borders, and shadows.
+*/
+.game-canvas {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+.game-canvas.active {
+  display:  flex !important; /* Exibe o canvas quando ativo */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  width: 90%;
+  height: 100%;
+}
+.game-canvas canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; /* Esconde o canvas por padrão */
+}
+.game-canvas canvas:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.game-canvas canvas:hover {
+  transform: scale(1.05);
+}
+.game-canvas canvas:active {
+  transform: scale(0.95);
+}
+.game-canvas canvas:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+.game-canvas canvas:focus:not(:focus-visible) {
+  outline: none;
+}
+.active {
+  display: flex !important; /* Exibe o sidebar quando ativo */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  height: 100%; /* Sempre ocupa toda a altura disponível */
+  margin: 0 auto;
+}
+
+/*
+  * Game Controls Styles
+  * This section styles the game controls, including buttons and layout.
+  * It ensures a clean and user-friendly interface for game interactions.
+*/
+.game-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.game-controls h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.game-controls p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #666;
+}
+.game-controls .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.game-controls .btns button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.game-controls .btns button:hover {
+  background: #0056b3;
+}
+.game-controls .btns button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.game-controls .btns button:disabled:hover {
+  background: #ccc;
+}
+.game-controls .btns button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* 
+  * Responsive Styles
+  * This section contains media queries to ensure the game layout is responsive and adapts to different screen sizes.
+  * It adjusts the layout for smaller screens, ensuring a user-friendly experience on mobile devices.
+*/
+@media screen and (max-width: 768px) {
+  body, html {
+    overflow: auto;
+  }
+  .main-layout {
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+  }
+  .game-container {
+    height: auto;
+    max-height: 400px;
+  }
+  .sidebar {
+    max-height: 300px;
+    height: auto;
+  }
+  .game-canvas {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  .game-canvas canvas {
+    width: 100%;
+    height: auto;
+  }
+  .game-controls {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .game-controls .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .game-controls .btns button {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  .game-controls .btns button:last-child {
+    margin-bottom: 0;
+  }
+  .sidebar h2 {
+    font-size: 1.5rem;
+  }
+  .sidebar p {
+    font-size: 0.9rem;
+  }
+  .game-controls h2 {
+    font-size: 1.5rem;
+  }
+  .game-controls p {
+    font-size: 0.9rem;
+  }
+  .game-canvas canvas:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+  .game-canvas canvas:focus:not(:focus-visible) {
+    outline: none;
+  }
+  .game-controls .btns button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .game-controls .btns button:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+  .game-controls .btns button:focus:not(:focus-visible) {
+    outline: none;
+  }
+  .game-controls .btns button:hover {
+    background: #0056b3;
+  }
+  .game-controls .btns button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  .game-controls .btns button:disabled:hover {
+    background: #ccc;
+  }
+  .game-controls .btns button:active {
+    transform: scale(0.95);
+  }
+}
+
+/* 
+  * Accessibility Styles
+  * This section ensures that the game is accessible to all users, including those with disabilities.
+  * It includes styles for focus states, contrast, and readability.
+*/
+:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 
+  * Print Styles
+  * This section contains styles for printing the game interface.
+  * It ensures that the game is printed in a clean and readable format.
+*/
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  .game-canvas, .sidebar, .game-controls {
+    box-shadow: none;
+    border: none;
+  }
+  .game-canvas canvas {
+    border: none;
+  }
+  .game-controls .btns button {
+    display: none;
+  }
+  h1, h2, p {
+    page-break-inside: avoid;
+  }
+}
+
+/* 
+  * Scrollbar Styles
+  * This section styles the scrollbar for a consistent look across browsers.
+ */
+ ::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Scrollbar styles for Firefox */
+/* Removed @-moz-document block as it is not supported by other browsers */
+/* Scrollbar styles for Edge and IE */
+@supports (-ms-ime-align: auto) {
+  ::-ms-scrollbar {
+    width: 12px;
+  }
+  ::-ms-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 6px;
+  }
+  ::-ms-scrollbar-thumb:hover {
+    background: #0056b3;
+  }
+  ::-ms-scrollbar-track {
+    background: #f0f0f0;
+  }
+}
+
+/* End of CSS Styles */
+/* 
+  * Additional Styles
+  * This section contains any additional styles that may be needed for specific game features or components.
+  * It can include styles for modals, notifications, or other UI elements.
+*/
+.additional-styles {
+  /* Placeholder for additional styles */
+  display: none; /* Esconde por padrão */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Coloca acima dos outros elementos */
+  display: flex; /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 24px; /* Tamanho do texto */
+  color: white; /* Cor do texto */
+  border-radius: var(--border-radius); /* Borda arredondada */
+  box-shadow: var(--box-shadow); /* Sombra para destaque */
+  transition: ease var(--transition-duration) 1s;
+  opacity: 0.8; /* Opacidade para suavizar o visual */
+  background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
+  pointer-events: none; /* Desabilita interações com o fundo */
+  z-index: 1000; /* Coloca acima dos outros elementos */
+}

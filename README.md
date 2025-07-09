@@ -1,6 +1,8 @@
-![Rafa Mori Banner](assets/banners/name-top_banner_a.png)
+# ![Rafa Mori Banner](https://github.com/rafa-mori/.github/blob/661f6f130131342296429af51d15f5eb6b98679e/assets/banners/name-top_banner_a.png)
 
-# Hi there! 👋
+---
+
+## Hi there! 👋
 
 Welcome to my GitHub profile! I'm Rafael Mori, a software developer passionate about solving complex problems and
 creating impactful solutions. Always looking to learn, grow, and share knowledge with the community. 🚀
@@ -8,6 +10,7 @@ creating impactful solutions. Always looking to learn, grow, and share knowledge
 ---
 
 ## About Me
+
 - 🔭 **Currently working on**: Various software development projects focused on innovation and efficiency.
 - 🌱 **Currently learning**: Exploring new technologies and honing my skills in cloud computing and AI.
 - 💬 **Ask me about**: Anything related to software development, or let's brainstorm new ideas!
@@ -16,10 +19,12 @@ creating impactful solutions. Always looking to learn, grow, and share knowledge
 ---
 
 ## My Tech Stack
+
 Here are the technologies I work with, represented by icons for easy reference. I try to order them by usage/knowledge, but I am always open to learning new things!
 Some of them are not in the list, some i'm not using anymore, but I have some knowledge about them.
 
 ### **Languages:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=bash,js,go,python,ts,dart,java,php,cs,c" />
@@ -28,6 +33,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Frameworks:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=flutter,express,react,angular,flask,django,jquery,bootstrap,wordpress,laravel,spring,vue" />
@@ -36,6 +42,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Cloud:**
+
 <div align="center">
   <a href="#">
     <div style="width: 50px !important; max-width: 50px !important; display: inline-block; margin-right: 7px;">
@@ -47,6 +54,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **VCS:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=git,github,bitbucket" />
@@ -55,6 +63,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Containerization:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=docker,kubernetes" />
@@ -63,6 +72,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Databases:**
+
 <div align="center">
   <a href="#">
     <img width="50px;" style="margin-right: 7px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg"/>
@@ -72,6 +82,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Other:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=idea,vscode,pycharm,webstorm,sublime,visualstudio,arduino,androidstudio,nginx,postman,devto,stackoverflow" />
@@ -80,6 +91,7 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 <br>
 
 ### **Operating Systems:**
+
 <div align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,kali,arch,windows,androidstudio,apple" />
@@ -90,9 +102,11 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 ---
 
 ## GitHub General Stats
+
 ![Rafa Mori's GitHub stats](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api?username=faelmori&show_icons=true&theme=date_night)
 
 ## Github Languages Stats
+
 ![Top Languages](https://github-readme-stats-git-main-faelmoris-projects.vercel.app/api/top-langs/?username=faelmori&layout=compact&show_icons=true&theme=date_night&langs_count=15)
 
 [//]: # (## GitHub General Stats)
@@ -106,12 +120,34 @@ Some of them are not in the list, some i'm not using anymore, but I have some kn
 
 ---
 
+## 🚀 Quick Deploy to GitHub Pages
+
+This portfolio includes an automated deployment system similar to MkDocs:
+
+```bash
+npm run deploy
+```
+
+**What it does:**
+
+- ✅ Builds the project locally
+- ✅ Creates/uses a dedicated `gh-pages` branch  
+- ✅ Deploys to GitHub Pages automatically
+- ✅ Returns to your original branch
+- ✅ Keeps everything organized and clean
+
+See [DEPLOY.md](./DEPLOY.md) for detailed instructions.
+
+---
+
 ## Connect with Me
+
 - 📫 **Reach me at**:
-   - [Gmail](mailto:faelmori@gmail.com) ✉️
-   - [Live](mailto:faelmori@live.com) ✉️
-   - [Discord](#kblom) 🎮
-- 💼 Let's connect on [LinkedIn](https://www.linkedin.com/in/rafael-mori-b7025516/) or follow me on [Twitter](https://x.com/faelOmori)! 
+
+- [Gmail](mailto:faelmori@gmail.com) ✉️
+- [Live](mailto:faelmori@live.com) ✉️
+- [Outlook](mailto:faelmori@outlook.com) ✉️
+- Let's connect on [LinkedIn](https://www.linkedin.com/in/rafael-mori-b7025516/) or follow me on [Twitter](https://x.com/faelOmori)!
 
 ---
 
