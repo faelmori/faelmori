@@ -2,6 +2,8 @@
 
 ---
 
+[![wakatime](https://wakatime.com/badge/user/04f6fe46-6782-45b3-a50a-604625b89d5b.svg)](https://wakatime.com/@04f6fe46-6782-45b3-a50a-604625b89d5b)
+
 ## Hi there! 👋
 
 Welcome to my GitHub profile! I'm Rafael Mori, a software developer passionate about solving complex problems and
